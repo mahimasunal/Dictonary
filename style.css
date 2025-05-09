@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue
+    
+  }
+  
+  .dictionary{
+    width: 500px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+  }
+  
+  .dictionary .search{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .dictionary .search .input_word{
+    border: none;
+    outline: none;
+    width: 200px;
+    border-bottom: 2px solid blue;
+  }
+  
+   button{
+    border: 1px solid blue;
+    color: white;
+    background: none;
+    color: blue;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  .word{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
